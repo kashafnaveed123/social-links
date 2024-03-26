@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Social links profile</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+    }
+    body{
+        background-color: black;
+        color: white;
+        align-items: center;
+    }
+    .container{
+        width: 30%;
+        background-color: rgb(35, 33, 33);
+        margin: 6rem auto;
+        border-radius: 1rem;
+        padding: 2rem 0rem;
+    }
+    .box{
+        background-color: rgb(71, 68, 68);;
+        width: 80%;
+        margin: auto;
+        border: 1rem;
+         border-radius: .5rem;
+         padding: .5rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .box:active{
+        background-color: yellowgreen;
+    }
+img{
+    border-radius: 100% ;
+    width: 20%;
+    margin-left: 8rem;
+    align-content: center;
+align-items: center;
+justify-content: center;
+}
+h1{
+    font-size: 25px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+p{
+    
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 2rem;
+}
+.para{
+    padding-top: .8rem;
+    font-size: 14px;
+}
+@media only screen and (min-width:930px) and (max-width:1174px) {
+    .para{
+    font-size: 11px;
+    }
+    p{
+        font-size: 15px;
+}
+}
+@media only screen and (min-width:607px) and (max-width:930px) {
+    .para{
+    font-size: 11px;
+    }
+    p{
+        font-size: 15px;
+}
+.container{
+    width: 40%;
+}
+}
+@media only screen and (min-width:530px) and (max-width:607px) {
+    .para{
+    font-size: 11px;
+    }
+    p{
+        font-size: 15px;
+}
+.container{
+    width: 50%;
+}
+}
+
+@media only screen and (min-width:509px) and (max-width:530px) {
+    .para{
+    font-size: 11px;
+    }
+    p{
+        font-size: 15px;
+}
+.container{
+    width: 60%;
+}
+}
+@media only screen and (min-width:222px) and (max-width:509px) {
+    .para{
+    font-size: 11px;
+    }
+    p{
+        font-size: 15px;
+}
+.container{
+    width: 80%;
+    margin: 3rem auto;
+}
+}
+
+</style>
+<body>
+    <div class="container">
+        <img src="./avatar-jessica.jpeg" alt="">
+        <h1>Jessica Randall</h1>
+        <p style="color: yellowgreen;">London,United Kingdom</p>
+        <p class="para">"Front-end developer and avid reader"</p>
+        <div id="box-2" class="box">GitHub</div>
+        <div id="box-2" class="box">Frontend Mentor</div>
+        <div id="box-3" class="box">LinkedIn</div>
+        <div id="box-4" class="box">Twitter</div>
+        <div id="box-5" class="box">Instagram</div>
+    </div>
+</body>
+</html>
